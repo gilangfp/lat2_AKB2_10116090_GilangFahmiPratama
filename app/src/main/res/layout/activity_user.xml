@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".user">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="133dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:background="@mipmap/ic_header_side_menu"
+        android:orientation="horizontal">
+
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="68dp"
+        android:layout_height="38dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="8dp"
+
+
+        android:layout_marginTop="12dp"
+        android:layout_weight="1"
+        app:srcCompat="@mipmap/ic_side_menu" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="78dp"
+        android:layout_height="44dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="333dp"
+        android:layout_marginTop="7dp"
+        android:layout_weight="1"
+        app:srcCompat="@mipmap/ic_notification" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/myPict"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="61dp"
+        android:src="@drawable/img" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="224dp"
+        android:layout_marginRight="107dp"
+        android:text="Gilang Fahmi Pratama"
+        android:textColor="#40b4e7"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="263dp"
+        android:layout_marginRight="164dp"
+        android:text="Blood Type : B" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_below="@+id/imageView4"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="246dp"
+        android:background="#939597" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="49dp"
+        android:layout_marginTop="300dp"
+        android:layout_weight="1"
+        android:text="75"
+        android:textColor="#40b4e7"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="161dp"
+        android:layout_marginTop="301dp"
+        android:layout_marginRight="120dp"
+        android:text="100"
+        android:textColor="#40b4e7"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="300dp"
+        android:layout_marginRight="60dp"
+        android:text="330"
+        android:textColor="#40b4e7"
+        android:textSize="30dp" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_below="@+id/imageView4"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="325dp"
+        android:layout_marginRight="0dp"
+        android:background="#939597" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="77dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="346dp"
+        android:layout_marginLeft="49dp"
+        android:text="BLOOD GIVE"
+        android:textSize="10dp" />
+
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="129dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="161dp"
+        android:layout_marginTop="347dp"
+        android:layout_marginRight="120dp"
+        android:text="BLOOD RECIVED"
+        android:textSize="10dp" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="51dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="347dp"
+        android:layout_marginRight="56dp"
+        android:text="THANKS"
+        android:textSize="10dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="378dp"
+        android:layout_marginRight="253dp"
+        app:srcCompat="@mipmap/ic_search_donor" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="378dp"
+        android:layout_marginRight="27dp"
+        app:srcCompat="@mipmap/ic_blood_needed" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="517dp"
+        android:layout_marginRight="252dp"
+        app:srcCompat="@mipmap/ic_message" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="517dp"
+        android:layout_marginRight="28dp"
+        app:srcCompat="@mipmap/ic_donor_history" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="481dp"
+        android:layout_marginRight="259dp"
+        android:text="Search Donor"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="504dp"
+        android:layout_marginRight="257dp"
+        android:text="Search donor near you"
+        android:textSize="10dp" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="481dp"
+        android:layout_marginRight="34dp"
+        android:text="Blood Needed"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="94dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="503dp"
+        android:layout_marginRight="30dp"
+        android:text="4 Users need blood"
+        android:textSize="10dp" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="621dp"
+        android:layout_marginRight="272dp"
+        android:text="Message"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="646dp"
+        android:layout_marginRight="265dp"
+        android:text="5 New Message"
+        android:textSize="10dp" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="621dp"
+        android:layout_marginRight="35dp"
+        android:text="Donor History"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="645dp"
+        android:layout_marginRight="41dp"
+        android:text="5 Gives, 2 Recived"
+        android:textSize="10dp" />
+
+</RelativeLayout>

@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".daftar">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@mipmap/ic_header"
+        android:orientation="horizontal"></LinearLayout>
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="366dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="67dp"
+        android:layout_marginRight="32dp"
+        android:backgroundTint="#C7C8CA"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Username"
+        android:textColor="#949599"
+        android:textSize="11dp"/>
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="361dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="108dp"
+        android:layout_marginRight="32dp"
+        android:backgroundTint="#C7C8CA"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Email"
+        android:textColor="#949599"
+        android:textSize="11dp"/>
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="366dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="157dp"
+        android:layout_marginRight="29dp"
+        android:backgroundTint="#C7C8CA"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Phone Number"
+        android:textColor="#949599"
+        android:textSize="11dp"/>
+
+    <RadioButton
+        android:id="@+id/radioButton"
+        android:layout_width="127dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="245dp"
+        android:layout_marginRight="262dp"
+        android:text="Male"
+        android:textColor="#949599"
+        android:textSize="11dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton2"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="199dp"
+        android:layout_marginTop="245dp"
+        android:layout_marginRight="28dp"
+        android:text="Female"
+        android:textColor="#949599"
+        android:textSize="11dp" />
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="147dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="296dp"
+        android:layout_marginRight="244dp"
+        android:backgroundTint="#C7C8CA"
+        android:drawableRight="@mipmap/ic_arrow_dropdown"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Blood Type"
+        android:textColor="#949599"
+        android:textSize="11dp" />
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="228dp"
+        android:layout_marginTop="296dp"
+        android:layout_marginRight="31dp"
+        android:backgroundTint="#C7C8CA"
+        android:drawableRight="@mipmap/ic_arrow_dropdown"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Reshus"
+        android:textColor="#949599"
+        android:textSize="11dp" />
+
+    <EditText
+        android:id="@+id/editText9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="340dp"
+        android:layout_marginRight="30dp"
+        android:backgroundTint="#C7C8CA"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Password"
+        android:textColor="#949599"
+        android:textSize="11dp" />
+
+    <EditText
+        android:id="@+id/editText10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="376dp"
+        android:layout_marginRight="29dp"
+        android:backgroundTint="#C7C8CA"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Retype Password"
+        android:textColor="#949599"
+        android:textSize="11dp" />
+
+    <RadioButton
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="199dp"
+        android:layout_marginTop="422dp"
+        android:layout_marginRight="28dp"
+        android:text="Organization"
+        android:textColor="#949599"
+        android:textSize="11dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton4"
+        android:layout_width="157dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="422dp"
+        android:layout_marginRight="229dp"
+        android:text="Personal"
+        android:textColor="#949599"
+        android:textSize="11dp" />
+
+    <EditText
+        android:id="@+id/editText11"
+        android:layout_width="366dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="466dp"
+        android:layout_marginRight="34dp"
+        android:backgroundTint="#C7C8CA"
+        android:drawableRight="@mipmap/ic_arrow_dropdown"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Job"
+        android:textColor="#949599"
+        android:textSize="11dp" />
+
+    <EditText
+        android:id="@+id/editText12"
+        android:layout_width="366dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="508dp"
+        android:layout_marginRight="35dp"
+        android:backgroundTint="#C7C8CA"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Address"
+        android:textColor="#949599"
+        android:textSize="11dp" />
+
+    <EditText
+        android:id="@+id/editText13"
+        android:layout_width="366dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="544dp"
+        android:layout_marginRight="35dp"
+        android:backgroundTint="#C7C8CA"
+        android:drawableRight="@mipmap/ic_blood_needed_location"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Default Location"
+        android:textColor="#949599"
+        android:textSize="11dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="23dp"
+        android:layout_marginTop="606dp"
+        android:layout_marginRight="26dp"
+        android:text="Agree with Terms and Condition"
+        android:textColor="#949599"
+        android:textSize="11dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="366dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="648dp"
+        android:layout_marginRight="28dp"
+        android:background="@drawable/button2"
+        android:text="Register"
+        android:textColor="#40B3E7" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        app:srcCompat="@mipmap/ic_header_back" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="12dp"
+        android:textColor="#ffff"
+        android:text="Register" />
+
+</RelativeLayout>
